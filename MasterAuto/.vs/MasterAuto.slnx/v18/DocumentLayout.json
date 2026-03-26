@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|c:\\users\\50242919804\\desktop\\masterauto\\sistema-de-gerenciamento-de-carros\\masterauto\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|solutionrelative:interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|c:\\users\\50242919804\\desktop\\masterauto\\sistema-de-gerenciamento-de-carros\\masterauto\\repository\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|solutionrelative:repository\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|c:\\users\\50242919804\\desktop\\masterauto\\sistema-de-gerenciamento-de-carros\\masterauto\\repository\\carrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|solutionrelative:repository\\carrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|c:\\users\\50242919804\\desktop\\masterauto\\sistema-de-gerenciamento-de-carros\\masterauto\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|solutionrelative:models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|c:\\users\\50242919804\\desktop\\masterauto\\sistema-de-gerenciamento-de-carros\\masterauto\\models\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|solutionrelative:models\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|c:\\users\\50242919804\\desktop\\masterauto\\sistema-de-gerenciamento-de-carros\\masterauto\\bdcontextevent\\masterautocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|solutionrelative:bdcontextevent\\masterautocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|c:\\users\\50242919804\\desktop\\masterauto\\sistema-de-gerenciamento-de-carros\\masterauto\\interfaces\\icarrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|solutionrelative:interfaces\\icarrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|c:\\users\\50242919804\\desktop\\masterauto\\sistema-de-gerenciamento-de-carros\\masterauto\\repository\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|solutionrelative:repository\\marcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|c:\\users\\50242919804\\desktop\\masterauto\\sistema-de-gerenciamento-de-carros\\masterauto\\interfaces\\imarcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|solutionrelative:interfaces\\imarcarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|c:\\users\\50242919804\\desktop\\masterauto\\sistema-de-gerenciamento-de-carros\\masterauto\\masterauto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5EC03001-9556-3F46-E7DD-A6C9CE7DA00B}|MasterAuto.csproj|solutionrelative:masterauto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Repository\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Repository\\CategoriaRepository.cs",
+              "RelativeToolTip": "Repository\\CategoriaRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:19:42.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Repository\\CarroRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CarroRepository.cs",
+              "ToolTip": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Repository\\CarroRepository.cs",
+              "RelativeToolTip": "Repository\\CarroRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:19:16.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Carro.cs",
+              "DocumentMoniker": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Models\\Carro.cs",
+              "RelativeDocumentMoniker": "Models\\Carro.cs",
+              "ToolTip": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Models\\Carro.cs",
+              "RelativeToolTip": "Models\\Carro.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAxwCIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:11:43.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Models\\Categoria.cs",
+              "RelativeToolTip": "Models\\Categoria.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAnwBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:01:31.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MasterAutoContext.cs",
+              "DocumentMoniker": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\BdContextEvent\\MasterAutoContext.cs",
+              "RelativeDocumentMoniker": "BdContextEvent\\MasterAutoContext.cs",
+              "ToolTip": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\BdContextEvent\\MasterAutoContext.cs",
+              "RelativeToolTip": "BdContextEvent\\MasterAutoContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwCkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:01:12.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ICategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Interfaces\\ICategoriaRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Interfaces\\ICategoriaRepository.cs",
+              "RelativeToolTip": "Interfaces\\ICategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:08:41.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICarroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Interfaces\\ICarroRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICarroRepository.cs",
+              "ToolTip": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Interfaces\\ICarroRepository.cs",
+              "RelativeToolTip": "Interfaces\\ICarroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:07:45.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MarcaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Repository\\MarcaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\MarcaRepository.cs",
+              "ToolTip": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Repository\\MarcaRepository.cs",
+              "RelativeToolTip": "Repository\\MarcaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:19:30.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMarcaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Interfaces\\IMarcaRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IMarcaRepository.cs",
+              "ToolTip": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\Interfaces\\IMarcaRepository.cs",
+              "RelativeToolTip": "Interfaces\\IMarcaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:09:48.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MasterAuto",
+              "DocumentMoniker": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\MasterAuto.csproj",
+              "RelativeDocumentMoniker": "MasterAuto.csproj",
+              "ToolTip": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\MasterAuto.csproj",
+              "RelativeToolTip": "MasterAuto.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-26T18:57:55.88Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
