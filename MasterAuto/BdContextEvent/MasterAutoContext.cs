@@ -30,9 +30,11 @@ public partial class MasterAutoContext : DbContext
     {
         modelBuilder.Entity<Carro>(entity =>
         {
-            entity.HasOne(d => d.IdCategoriaNavigation).WithMany().HasConstraintName("FK__Carro__id_Catego__628FA481");
+            entity.Property(e => e.IdCarro).HasDefaultValueSql("(newid())");
 
-            entity.HasOne(d => d.IdMarcaNavigation).WithMany().HasConstraintName("FK__Carro__id_Marca__6383C8BA");
+            entity.HasOne(d => d.IdCategoriaNavigation).WithMany(p => p.Carros).HasConstraintName("FK__Carro__id_Catego__628FA481");
+
+            entity.HasOne(d => d.IdMarcaNavigation).WithMany(p => p.Carros).HasConstraintName("FK__Carro__id_Marca__6383C8BA");
         });
 
         modelBuilder.Entity<Categorium>(entity =>

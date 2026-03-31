@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MasterAuto.Models;
 
-[Keyless]
 [Table("Carro")]
 [Index("Placa", Name = "UQ__Carro__8310F99DEF5FCC53", IsUnique = true)]
 public partial class Carro
@@ -32,9 +31,15 @@ public partial class Carro
     [Column("id_Marca")]
     public Guid? IdMarca { get; set; }
 
+    [Key]
+    [Column("Id_Carro")]
+    public Guid IdCarro { get; set; }
+
     [ForeignKey("IdCategoria")]
+    [InverseProperty("Carros")]
     public virtual Categorium? IdCategoriaNavigation { get; set; }
 
     [ForeignKey("IdMarca")]
+    [InverseProperty("Carros")]
     public virtual Marca? IdMarcaNavigation { get; set; }
 }

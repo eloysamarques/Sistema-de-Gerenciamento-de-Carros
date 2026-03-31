@@ -22,23 +22,29 @@ public class CategoriaRepository : ICategoriumRepository
         }
     }
 
-    public Categoria BuscarPorId(Guid Id)
+    public Categorium BuscarPorId(Guid Id)
     {
         return _context.Categoria.Find(Id)!;
     }
 
-    public void Cadastrar(Categoria categoria)
+    public void Cadastrar(Categorium categoria)
     {
-        throw new NotImplementedException();
+        _context.Categoria.Add(categoria);
+        _context.SaveChanges();
     }
 
     public void Deletar(Guid id)
     {
-        throw new NotImplementedException();
+        Categorium categoriaBuscado = _context.Categoria.Find(id)!;
+        if (categoriaBuscado != null)
+        {
+            _context.Categoria.Remove(categoriaBuscado);
+            _context.SaveChanges();
+        }
     }
 
-    public List<Categoria> Listar()
+    public List<Categorium> Listar()
     {
-        throw new NotImplementedException();
+        return _context.Categoria.OrderBy(c => c.NomeCategoria).ToList();
     }
 }

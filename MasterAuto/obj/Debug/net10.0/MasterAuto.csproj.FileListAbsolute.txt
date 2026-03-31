@@ -162,3 +162,5 @@ C:\Users\50242919804\Desktop\MasterAuto\Sistema-de-Gerenciamento-de-Carros\Maste
 C:\Users\50242919804\Desktop\MasterAuto\Sistema-de-Gerenciamento-de-Carros\MasterAuto\obj\Debug\net10.0\MasterAuto.pdb
 C:\Users\50242919804\Desktop\MasterAuto\Sistema-de-Gerenciamento-de-Carros\MasterAuto\obj\Debug\net10.0\MasterAuto.genruntimeconfig.cache
 C:\Users\50242919804\Desktop\MasterAuto\Sistema-de-Gerenciamento-de-Carros\MasterAuto\obj\Debug\net10.0\ref\MasterAuto.dll
+C:\Users\50242919804\Desktop\MasterAuto\Sistema-de-Gerenciamento-de-Carros\MasterAuto\bin\Debug\net10.0\MasterAuto.staticwebassets.runtime.json
+C:\Users\50242919804\Desktop\MasterAuto\Sistema-de-Gerenciamento-de-Carros\MasterAuto\obj\Debug\net10.0\MasterAuto.sourcelink.json
