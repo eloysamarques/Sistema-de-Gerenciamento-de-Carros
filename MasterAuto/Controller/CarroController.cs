@@ -17,6 +17,10 @@ public class CarroController : ControllerBase
         _carroRepository = carroRepository;
     }
 
+    /// <summary>
+    /// Endpoint da API para chamada para o método listar os carros
+    /// </summary>
+    /// <returns> Status code 200 e a lista de carros</returns>
     [HttpGet]
     public IActionResult Listar()
     {
@@ -30,8 +34,12 @@ public class CarroController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Endpoint da API que faz chamada para o método buscar por id do carro especifico
+    /// </summary>
+    /// <param name="Id">id do carro buscado</param>
+    /// <returns> Status code 200 e o tipo de carro buscado</returns>
     [HttpGet("{Id}")]
-
     public IActionResult BuscarPorId(Guid Id)
     {
         try
@@ -44,11 +52,16 @@ public class CarroController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Endpoint da API que faz chamada para o método cadastrar um novo carro
+    /// </summary>
+    /// <param name="carro">Carro a ser cadastrado</param>
+    /// <returns>Status code 201 e o carro cadastrado</returns>
     [HttpPost]
     public async Task<IActionResult> CadastrarAsync(CarroDTO carro) 
     {
         if (String.IsNullOrWhiteSpace(carro.Modelo))
-            return BadRequest("É obrigatoro que o Carro tenha um modelo");
+            return BadRequest("É obrigatório que o Carro tenha um modelo");
 
         Carro novoCarro = new Carro();
 
@@ -90,7 +103,13 @@ public class CarroController : ControllerBase
             return BadRequest(e.Message);
         }
     }
-    
+
+    /// <summary>
+    /// Endpoint da API que faz chamada para o método atualizar um carro
+    /// </summary>
+    /// <param name="id">Id do carro a ser atualizado</param>
+    /// <param name="carro">Carro com os dados atualizados</param>
+    /// <returns>Status code 204 e o carro atualizado</returns>
     [HttpPut("{id}")]
     public async Task<IActionResult> Atualizar(Guid id, CarroDTO carro)
     {
@@ -157,6 +176,11 @@ public class CarroController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Endpoint da API que faz chamada para o método deletar um carro
+    /// </summary>
+    /// <param name="id">Id do carro a ser excluído</param>
+    /// <returns>Status code 204</returns>
     [HttpDelete("{id}")]
     public IActionResult Delete(Guid id)
     {

@@ -16,6 +16,10 @@ public class CategoriaController : ControllerBase
         _categoriaRepository = categoriaRepository;
     }
 
+    /// <summary>
+    /// Endpoint da API para chamada para o método listar as Categorias
+    /// </summary>
+    /// <returns> Status code 200 e a lista de categoria</returns>
     [HttpGet]
     public IActionResult Listar()
     {
@@ -29,6 +33,11 @@ public class CategoriaController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Endpoint da API que faz chamada para o método buscar por id do categoria especifico
+    /// </summary>
+    /// <param name="Id">id da categoria buscada</param>
+    /// <returns> Status code 200 e o tipo de categoria buscada</returns>
     [HttpGet("{id}")]
     public IActionResult BuscarPorId(Guid id)
     {
@@ -42,6 +51,11 @@ public class CategoriaController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Endpoint da API que faz chamada para o método cadastrar uma nova categoria
+    /// </summary>
+    /// <param name="carro">Categoria a ser cadastrado</param>
+    /// <returns>Status code 201 e a categoria cadastrada</returns>
     [HttpPost]
     public IActionResult Cadastrar(CategoriaDTO categoria)
     {
@@ -60,6 +74,12 @@ public class CategoriaController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Endpoint da API que faz chamada para o método atualizar uma categoria
+    /// </summary>
+    /// <param name="id">Id da categoria a ser atualizada</param>
+    /// <param name="carro">Categoria com os dados atualizados</param>
+    /// <returns>Status code 204 e a categoria atualizada</returns>
     [HttpPut("{id}")]
     public IActionResult Atualizar(Guid id, CategoriaDTO categoria)
     {
@@ -78,6 +98,11 @@ public class CategoriaController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Endpoint da API que faz chamada para o método deletar uma categoria
+    /// </summary>
+    /// <param name="id">Id da categoria a ser excluída</param>
+    /// <returns>Status code 204</returns>
     [HttpDelete("{id}")]
     public IActionResult Delete(Guid id)
     {
