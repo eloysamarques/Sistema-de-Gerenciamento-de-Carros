@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9yRsimNcLjs=",
+  "dgSpecHash": "xMuCAstV8eA=",
   "success": true,
   "projectFilePath": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\MasterAuto.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\50242919804\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\10.0.5\\microsoft.entityframeworkcore.tools.10.0.5.nupkg.sha512",
     "C:\\Users\\50242919804\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
     "C:\\Users\\50242919804\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.5\\microsoft.extensions.dependencymodel.10.0.5.nupkg.sha512",
+    "C:\\Users\\50242919804\\.nuget\\packages\\microsoft.extensions.options\\10.0.5\\microsoft.extensions.options.10.0.5.nupkg.sha512",
     "C:\\Users\\50242919804\\.nuget\\packages\\microsoft.identity.client\\4.73.1\\microsoft.identity.client.4.73.1.nupkg.sha512",
     "C:\\Users\\50242919804\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.73.1\\microsoft.identity.client.extensions.msal.4.73.1.nupkg.sha512",
     "C:\\Users\\50242919804\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.0.1\\microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
@@ -61,5 +62,18 @@
     "C:\\Users\\50242919804\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.4\\system.security.cryptography.pkcs.9.0.4.nupkg.sha512",
     "C:\\Users\\50242919804\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.Extensions.Options não será podado. Considere remover este pacote das dependências, pois\u00A0ele provavelmente é desnecessário.",
+      "projectPath": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\MasterAuto.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\50242919804\\Desktop\\MasterAuto\\Sistema-de-Gerenciamento-de-Carros\\MasterAuto\\MasterAuto.csproj",
+      "libraryId": "Microsoft.Extensions.Options",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

@@ -2,6 +2,7 @@ using MasterAuto.BdContextEvent;
 using MasterAuto.Interfaces;
 using MasterAuto.Repository;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,7 +26,7 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
-        Title = "EventPlus API",
+        Title = "MasterAuto API",
         Description = "Aplicação para gerenciamento de eventos",
         TermsOfService = new Uri("https://example.com/terms"),
         Contact = new OpenApiContact
@@ -73,7 +74,14 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+if (app.Environment.IsDevelopment())
+{
+    app.MapOpenApi();
+}
+
 app.UseHttpsRedirection();
+
+app.UseStaticFiles();
 
 app.UseAuthorization();
 

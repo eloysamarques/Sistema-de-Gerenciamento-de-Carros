@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.4",
   "info": {
-    "title": "EventPlus API",
+    "title": "MasterAuto API",
     "description": "Aplicação para gerenciamento de eventos",
     "termsOfService": "https://example.com/terms",
     "contact": {

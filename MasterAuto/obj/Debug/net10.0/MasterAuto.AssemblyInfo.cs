@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MasterAuto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edb53688d1c0d622e7ffb212225c22f43f1ee1d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68569beb67f60c016c83ede5722a9461749f8ef2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MasterAuto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MasterAuto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
